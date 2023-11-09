@@ -12,7 +12,7 @@ query_to_exec = """
 query_job = client.query(query_to_exec)
 
 print(query_job)
-print("success ran")
+print("success execution")
 
 for row in query_job:
     print(str(row[0]) + "," + str(row[1]) + "," + str(row[2]))
